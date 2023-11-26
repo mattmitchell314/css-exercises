@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+
+
 body {
   height: 100vh;
   margin: 0;
@@ -10,6 +12,55 @@ body {
 img {
   width: 600px;
 }
+
+ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  gap: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: #666;
+}
+
+.header,
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+
+}
+
+.footer {
+  background-color: #eee;
+}
+
+.left-links {
+  display: flex;
+  gap: 16px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+ }
+
+ .content {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+ }
+
+.right-links {
+  display: flex;
+  gap: 16px;
+}
+
 
 button {
   font-family: Roboto, sans-serif;

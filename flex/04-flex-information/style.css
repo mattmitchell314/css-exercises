@@ -15,16 +15,28 @@ img {
   margin-bottom: 32px;
 }
 
+* {
+  /* border: solid black 2px; */
+}
+
 .plants {
   display: flex;
   justify-content: center;
-
+  
 }
 
 .plant {
+  display: flex;
   flex-direction: column;
+  width: 200px;
   align-items: center;
+  margin: 0 26px;
 }
+
+.text {
+  text-align: center;
+}
+
 
 /* do not edit this footer */
 .footer {
